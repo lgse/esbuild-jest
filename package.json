@@ -1,12 +1,11 @@
 {
   "name": "@lgse/esbuild-jest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jest plugin to use esbuild for transformation",
   "main": "esbuild-jest.js",
   "module": "esbuild-jest.es.js",
   "typings": "esbuild-jest.d.ts",
   "scripts": {
-    "postinstall": "npm run build",
     "build": "ts-node ./tools/build.ts",
     "test": "jest --clearCache && jest --detectOpenHandles"
   },
